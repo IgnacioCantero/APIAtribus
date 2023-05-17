@@ -1,8 +1,6 @@
 //BEARER TOKEN:
 package com.atribus.Atribus.security;
 
-import com.atribus.Atribus.dao.UsuarioRepository;
-import com.atribus.Atribus.entity.Usuario;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
