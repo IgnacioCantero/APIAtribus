@@ -59,5 +59,6 @@ public interface TwittersTweetRepository extends JpaRepository<TwittersTweet, Lo
     List<TwittersTweet> findByCategoriesCategoryIdAndDateCreated(int category, Date dateCreated);
     List<TwittersTweet> findByDateCreated(Date dateCreated);
     List<TwittersTweet> findByCategoriesCategoryIdAndSearchsSearchIdAndDateCreated(int category, int search, Date dateCreated);
+
 }
 
